@@ -30,7 +30,7 @@ curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/mast
 #### Nginx - Set Real visitor ip address from Cloudflare (Disable)
 Removes ```/etc/nginx/conf.d/cloudflare-set-real-ip.conf``` and restarts nginx
 
-Executes: [nginx-set-real-visitor-ip-from-cloudflare-disable.php](nginx-set-real-visitor-ip-from-cloudflare-disable.php)
+Executes: [nginx-set-real-visitor-ip-from-cloudflare-disable.sh](nginx-set-real-visitor-ip-from-cloudflare-disable.sh)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-disable.php" | php
+curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-disable.sh" | sh
 ```
