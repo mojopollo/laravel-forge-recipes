@@ -1,6 +1,6 @@
 <?php
 // Forge Recipe - Nginx - Set Real visitor ip address from Cloudflare (Enable)
-// curl -sS "https://gist.githubusercontent.com/mojopollo/850c591c2352d4f86afb0d8c9d13e5e4/raw" | php
+// curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-enable.php" | php
 
 // Get cloudflare ip's
 $ips = '';
