@@ -37,10 +37,10 @@ curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/mast
 
 &nbsp;
 
-#### System - Install Essentials
+#### System - Install PHP Essentials
 Will install packages mostly used by php apps and with some other custom packages
 
-Executes: [system-install-essentials.sh](system-install-essentials.sh)
+Executes: [system-install-php-essentials.sh](system-install-php-essentials.sh)
 ```bash
-curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/system-install-essentials.sh" | sh
+curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/system-install-php-essentials.sh" | sh
 ```
