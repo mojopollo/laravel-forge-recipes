@@ -34,3 +34,13 @@ Executes: [nginx-set-real-visitor-ip-from-cloudflare-disable.sh](nginx-set-real-
 ```bash
 curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/nginx-set-real-visitor-ip-from-cloudflare-disable.sh" | sh
 ```
+
+&nbsp;
+
+#### System - Install Essentials
+Will install packages mostly used by php apps and with some other custom packages
+
+Executes: [system-install-essentials.sh](system-install-essentials.sh)
+```bash
+curl -sS "https://raw.githubusercontent.com/mojopollo/laravel-forge-recipes/master/system-install-essentials.sh" | sh
+```
