@@ -1,7 +1,8 @@
 # Laravel Forge Recipes
 
 Just a small collection of recipes for repetitive tasks after provisioning a server/app under Laravel Forge.
-To use any of these just copy the curl code snippets below and create and paste to ```New Recipe``` in Forge.
+To use any of these, it is recommended to use the contents of the shell script as opposed to the curl snippets.
+Copy the code and paste under ```New Recipe``` in Forge.
 
 &nbsp;
 
