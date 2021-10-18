@@ -5,6 +5,7 @@
 // Get cloudflare ip's
 $ips = '';
 $ips .= file_get_contents('https://www.cloudflare.com/ips-v4');
+$ips .= "\n"; # Without this line, it will generate something like: set_real_ip_from 131.0.72.0/222400:cb00::/32;
 $ips .= file_get_contents('https://www.cloudflare.com/ips-v6');
 $ips = explode("\n", $ips);
 
